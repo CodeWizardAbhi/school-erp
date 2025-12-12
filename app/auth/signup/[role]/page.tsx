@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+// import { redirect } from "next/navigation"; // Temporarily commented out
 import Link from "next/link";
 
 export default async function RoleSignUpPage({
