@@ -13,7 +13,6 @@ import {
     GraduationCap,
     ShieldCheck,
     Users,
-    ArrowLeft,
     Loader2,
     CheckCircle2,
     Lock,
@@ -192,14 +191,6 @@ export default function LoginForm({
 
                 {/* Form container */}
                 <div className="flex-1 flex flex-col justify-center px-6 py-12 lg:px-12 xl:px-24 bg-white dark:bg-slate-900">
-                    {/* Back link */}
-                    <Link
-                        href="/"
-                        className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 mb-8 transition-colors group"
-                    >
-                        <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform" />
-                        Back to home
-                    </Link>
 
                     <div className="max-w-md w-full mx-auto">
                         {/* Mobile icon */}
